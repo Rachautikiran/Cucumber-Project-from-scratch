@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="0" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-05-15T16:24:08 IST" name="Command line suite" finished-at="2026-05-15T16:24:20 IST" duration-ms="12288">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runners.TestRunner@3eb738bb]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test started-at="2026-05-15T16:24:08 IST" name="Command line test" finished-at="2026-05-15T16:24:20 IST" duration-ms="12288">
+      <class name="runners.TestRunner">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:runners.TestRunner@3eb738bb]" started-at="2026-05-15T16:24:08 IST" name="setUpClass" finished-at="2026-05-15T16:24:10 IST" duration-ms="2573" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@7a1f8def]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runners.TestRunner@3eb738bb]" started-at="2026-05-15T16:24:10 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2026-05-15T16:24:19 IST" duration-ms="9104" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify Signup"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Signup"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.NoSuchSessionException">
+            <message>
+              <![CDATA[invalid session id: session deleted as the browser has closed the connection
+from disconnected: not connected to DevTools
+  (Session info: chrome=148.0.7778.97)
+Build info: version: '4.40.0', revision: 'b3333f1'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.22'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [09ec4ebf20d1e1b91a003c884d4502d9, deleteAllCookies {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 148.0.7778.97, chrome: {chromedriverVersion: 148.0.7778.167 (65db666ac2c..., userDataDir: C:\Users\lenovo\AppData\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51256}, goog:processID: 400, networkConnectionEnabled: false, pageLoadStrategy: eager, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 09ec4ebf20d1e1b91a003c884d4502d9]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchSessionException: invalid session id: session deleted as the browser has closed the connection
+from disconnected: not connected to DevTools
+  (Session info: chrome=148.0.7778.97)
+Build info: version: '4.40.0', revision: 'b3333f1'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.22'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [09ec4ebf20d1e1b91a003c884d4502d9, deleteAllCookies {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 148.0.7778.97, chrome: {chromedriverVersion: 148.0.7778.167 (65db666ac2c..., userDataDir: C:\Users\lenovo\AppData\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51256}, goog:processID: 400, networkConnectionEnabled: false, pageLoadStrategy: eager, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 09ec4ebf20d1e1b91a003c884d4502d9
+at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:169)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:142)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:223)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:601)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:682)
+at org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions.deleteAllCookies(RemoteWebDriver.java:992)
+at factory.DriverFactory.initDriver(DriverFactory.java:34)
+at hooks.Apphooks.setUp(Apphooks.java:13)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchSessionException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:runners.TestRunner@3eb738bb]" started-at="2026-05-15T16:24:19 IST" name="tearDownClass" finished-at="2026-05-15T16:24:20 IST" duration-ms="371" status="FAIL">
+          <exception class="java.lang.IllegalStateException">
+            <message>
+              <![CDATA[java.net.SocketException: Permission denied: connect]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.IllegalStateException: java.net.SocketException: Permission denied: connect
+at io.cucumber.core.plugin.MessageFormatter.write(MessageFormatter.java:37)
+at io.cucumber.core.eventbus.AbstractEventPublisher.send(AbstractEventPublisher.java:51)
+at io.cucumber.core.eventbus.AbstractEventBus.send(AbstractEventBus.java:12)
+at io.cucumber.core.runtime.SynchronizedEventBus.send(SynchronizedEventBus.java:47)
+at io.cucumber.core.runtime.CucumberExecutionContext.emitTestRunFinished(CucumberExecutionContext.java:124)
+at io.cucumber.core.runtime.CucumberExecutionContext.finishTestRun(CucumberExecutionContext.java:104)
+at io.cucumber.testng.TestNGCucumberRunner.finish(TestNGCucumberRunner.java:148)
+at io.cucumber.testng.AbstractTestNGCucumberTests.tearDownClass(AbstractTestNGCucumberTests.java:57)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)
+at org.testng.internal.invokers.TestMethodWorker.invokeAfterClassConfigurations(TestMethodWorker.java:238)
+at org.testng.internal.invokers.TestMethodWorker.invokeAfterClassMethods(TestMethodWorker.java:223)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:137)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.TestNG.privateMain(TestNG.java:1430)
+at org.testng.TestNG.main(TestNG.java:1394)
+Caused by: java.net.SocketException: Permission denied: connect
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+at java.base/sun.net.www.protocol.http.HttpURLConnection$10.run(HttpURLConnection.java:1980)
+at java.base/sun.net.www.protocol.http.HttpURLConnection$10.run(HttpURLConnection.java:1975)
+at java.base/java.security.AccessController.doPrivileged(Native Method)
+at java.base/sun.net.www.protocol.http.HttpURLConnection.getChainedException(HttpURLConnection.java:1974)
+at java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1536)
+at java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1520)
+at java.base/java.net.HttpURLConnection.getResponseCode(HttpURLConnection.java:527)
+at java.base/sun.net.www.protocol.https.HttpsURLConnectionImpl.getResponseCode(HttpsURLConnectionImpl.java:334)
+at io.cucumber.core.plugin.UrlOutputStream.getResponseBody(UrlOutputStream.java:125)
+at io.cucumber.core.plugin.UrlOutputStream.sendRequest(UrlOutputStream.java:87)
+at io.cucumber.core.plugin.UrlOutputStream.close(UrlOutputStream.java:65)
+at java.base/sun.nio.cs.StreamEncoder.implClose(StreamEncoder.java:341)
+at java.base/sun.nio.cs.StreamEncoder.close(StreamEncoder.java:161)
+at java.base/java.io.OutputStreamWriter.close(OutputStreamWriter.java:255)
+at io.cucumber.messages.MessageToNdjsonWriter.close(MessageToNdjsonWriter.java:40)
+at io.cucumber.core.plugin.MessageFormatter.write(MessageFormatter.java:35)
+... 33 more
+Caused by: java.net.SocketException: Permission denied: connect
+at java.base/java.net.PlainSocketImpl.connect0(Native Method)
+at java.base/java.net.PlainSocketImpl.socketConnect(PlainSocketImpl.java:101)
+at java.base/java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:412)
+at java.base/java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:255)
+at java.base/java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:237)
+at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+at java.base/java.net.Socket.connect(Socket.java:609)
+at java.base/sun.security.ssl.SSLSocketImpl.connect(SSLSocketImpl.java:305)
+at java.base/sun.security.ssl.BaseSSLSocketImpl.connect(BaseSSLSocketImpl.java:173)
+at java.base/sun.net.NetworkClient.doConnect(NetworkClient.java:182)
+at java.base/sun.net.www.http.HttpClient.openServer(HttpClient.java:509)
+at java.base/sun.net.www.http.HttpClient.openServer(HttpClient.java:604)
+at java.base/sun.net.www.protocol.https.HttpsClient.<init>(HttpsClient.java:266)
+at java.base/sun.net.www.protocol.https.HttpsClient.New(HttpsClient.java:373)
+at java.base/sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.getNewHttpClient(AbstractDelegateHttpsURLConnection.java:207)
+at java.base/sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1232)
+at java.base/sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:1081)
+at java.base/sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.connect(AbstractDelegateHttpsURLConnection.java:193)
+at java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1592)
+at java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1520)
+at java.base/sun.net.www.protocol.http.HttpURLConnection.getHeaderFields(HttpURLConnection.java:3154)
+at java.base/sun.net.www.protocol.https.HttpsURLConnectionImpl.getHeaderFields(HttpsURLConnectionImpl.java:279)
+at io.cucumber.core.plugin.UrlOutputStream.getResponseBody(UrlOutputStream.java:124)
+... 40 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.IllegalStateException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- runners.TestRunner -->
+    </test> <!-- Command line test -->
+  </suite> <!-- Command line suite -->
+</testng-results>
