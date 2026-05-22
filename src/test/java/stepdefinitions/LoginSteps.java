@@ -25,6 +25,7 @@ public class LoginSteps {
 
     @When("user clicks on signup login button")
     public void user_clicks_on_signup_login_button() {
+
         getLoginPage().clickOnSignUpLoginBtn();
     }
 
@@ -35,6 +36,7 @@ public class LoginSteps {
 
     @When("user clicks on login button")
     public void user_clicks_on_login_button() {
+
         getLoginPage().clickOnLoginButton();
     }
 
