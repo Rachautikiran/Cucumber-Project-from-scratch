@@ -1,0 +1,42 @@
+2026-05-26 11:28:23                     [TestNG-tests-1]                     INFO                      utils.LoggerUtil                     - ========== Test Execution Started ==========
+2026-05-26 11:28:27                     [TestNG-tests-1]                     INFO                      utils.LoggerUtil                     - Browser launched successfully
+2026-05-26 11:28:31                     [TestNG-tests-1]                     INFO                      utils.LoggerUtil                     - Navigated to application URL
+2026-05-26 11:28:31                     [TestNG-tests-1]                     INFO                      utils.LoggerUtil                     - Scenario Started : Verify login with valid credentials
+2026-05-26 11:28:38                     [TestNG-tests-1]                     INFO                      utils.LoggerUtil                     - Scenario Passed : Verify login with valid credentials
+2026-05-26 11:28:39                     [TestNG-tests-1]                     INFO                      utils.LoggerUtil                     - Browser closed successfully
+2026-05-26 11:28:39                     [TestNG-tests-1]                     INFO                      utils.LoggerUtil                     - ========== Test Execution Finished ==========
+2026-05-26 11:28:39                     [TestNG-tests-1]                     INFO                      utils.LoggerUtil                     - ========== Test Execution Started ==========
+2026-05-26 11:28:40                     [TestNG-tests-1]                     INFO                      utils.LoggerUtil                     - Browser launched successfully
+2026-05-26 11:28:43                     [TestNG-tests-1]                     INFO                      utils.LoggerUtil                     - Navigated to application URL
+2026-05-26 11:28:43                     [TestNG-tests-1]                     INFO                      utils.LoggerUtil                     - Scenario Started : Verify Signup
+2026-05-26 11:28:46                     [TestNG-tests-1]                     INFO                      utils.LoggerUtil                     - Scenario Passed : Verify Signup
+2026-05-26 11:28:47                     [TestNG-tests-1]                     INFO                      utils.LoggerUtil                     - Browser closed successfully
+2026-05-26 11:28:47                     [TestNG-tests-1]                     INFO                      utils.LoggerUtil                     - ========== Test Execution Finished ==========
+2026-05-26 12:44:38                     [main]                     INFO                      utils.LoggerUtil                     - ========== Test Execution Started ==========
+2026-05-26 12:44:40                     [main]                     INFO                      utils.LoggerUtil                     - Browser launched successfully
+2026-05-26 12:44:44                     [main]                     INFO                      utils.LoggerUtil                     - Navigated to application URL
+2026-05-26 12:44:44                     [main]                     INFO                      utils.LoggerUtil                     - Scenario Started : Verify login with valid credentials
+2026-05-26 12:44:48                     [main]                     ERROR                     utils.LoggerUtil                     - Scenario Failed : Verify login with valid credentials
+2026-05-26 12:44:49                     [main]                     INFO                      utils.LoggerUtil                     - Browser closed successfully
+2026-05-26 12:44:49                     [main]                     INFO                      utils.LoggerUtil                     - ========== Test Execution Finished ==========
+2026-05-26 12:44:50                     [main]                     INFO                      utils.LoggerUtil                     - ========== Test Execution Started ==========
+2026-05-26 12:44:51                     [main]                     INFO                      utils.LoggerUtil                     - Browser launched successfully
+2026-05-26 12:44:56                     [main]                     INFO                      utils.LoggerUtil                     - Navigated to application URL
+2026-05-26 12:44:56                     [main]                     INFO                      utils.LoggerUtil                     - Scenario Started : Verify Signup
+2026-05-26 12:44:59                     [main]                     ERROR                     utils.LoggerUtil                     - Scenario Failed : Verify Signup
+2026-05-26 12:44:59                     [main]                     INFO                      utils.LoggerUtil                     - Browser closed successfully
+2026-05-26 12:44:59                     [main]                     INFO                      utils.LoggerUtil                     - ========== Test Execution Finished ==========
+2026-05-27 17:12:31                     [TestNG-tests-1]                     INFO                      utils.LoggerUtil                     - ========== Test Execution Started ==========
+2026-05-27 17:12:35                     [TestNG-tests-1]                     INFO                      utils.LoggerUtil                     - Browser launched successfully
+2026-05-27 17:12:39                     [TestNG-tests-1]                     INFO                      utils.LoggerUtil                     - Navigated to application URL
+2026-05-27 17:12:39                     [TestNG-tests-1]                     INFO                      utils.LoggerUtil                     - Scenario Started : Verify login with valid credentials
+2026-05-27 17:12:46                     [TestNG-tests-1]                     INFO                      utils.LoggerUtil                     - Scenario Passed : Verify login with valid credentials
+2026-05-27 17:12:46                     [TestNG-tests-1]                     INFO                      utils.LoggerUtil                     - Browser closed successfully
+2026-05-27 17:12:46                     [TestNG-tests-1]                     INFO                      utils.LoggerUtil                     - ========== Test Execution Finished ==========
+2026-05-27 17:12:46                     [TestNG-tests-1]                     INFO                      utils.LoggerUtil                     - ========== Test Execution Started ==========
+2026-05-27 17:12:48                     [TestNG-tests-1]                     INFO                      utils.LoggerUtil                     - Browser launched successfully
+2026-05-27 17:12:49                     [TestNG-tests-1]                     INFO                      utils.LoggerUtil                     - Navigated to application URL
+2026-05-27 17:12:49                     [TestNG-tests-1]                     INFO                      utils.LoggerUtil                     - Scenario Started : Verify Signup
+2026-05-27 17:12:53                     [TestNG-tests-1]                     INFO                      utils.LoggerUtil                     - Scenario Passed : Verify Signup
+2026-05-27 17:12:53                     [TestNG-tests-1]                     INFO                      utils.LoggerUtil                     - Browser closed successfully
+2026-05-27 17:12:53                     [TestNG-tests-1]                     INFO                      utils.LoggerUtil                     - ========== Test Execution Finished ==========
