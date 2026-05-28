@@ -1,8 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
-<suite name="CucumberSuite" verbose="1">
-    <test name="CucumberTests">
+
+<suite name="AutomationSuite"
+       parallel="tests"
+       thread-count="2">
+
+    <test name="SmokeTests">
+
+        <parameter name="browser" value="chrome"/>
+
         <classes>
+
             <class name="runners.TestRunner"/>
+
         </classes>
+
     </test>
+
 </suite>
